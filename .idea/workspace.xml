@@ -114,10 +114,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GoogleRunnerTest.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="GoogleRunnerTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/mycompany/runner/GoogleRunnerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="35" selection-start="1161" selection-end="1166" vertical-scroll-proportion="0.0">
+            <state line="15" column="68" selection-start="672" selection-end="672" vertical-scroll-proportion="0.21932115">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -134,10 +134,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SearchScenario.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="SearchScenario.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/mycompany/scenario/SearchScenario.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="66" selection-start="226" selection-end="226" vertical-scroll-proportion="0.18798956">
+            <state line="5" column="115" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -165,8 +165,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/mycompany/scenario/SeleniumScenario.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/mycompany/server/SeleniumRcServer.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/mycompany/runner/GoogleRunnerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/mycompany/scenario/SearchScenario.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/mycompany/runner/GoogleRunnerTest.java" />
       </list>
     </option>
   </component>
@@ -696,15 +696,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/mycompany/runner/GoogleRunnerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="35" selection-start="1161" selection-end="1166" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium/2.0a4/selenium-2.0a4-sources.jar!/com/thoughtworks/selenium/SeleneseTestBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="118" column="25" selection-start="4046" selection-end="4142" vertical-scroll-proportion="0.0" />
@@ -712,8 +703,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/mycompany/scenario/SearchScenario.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="66" selection-start="226" selection-end="226" vertical-scroll-proportion="0.18798956">
+        <state line="5" column="115" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mycompany/runner/GoogleRunnerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="68" selection-start="672" selection-end="672" vertical-scroll-proportion="0.21932115">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

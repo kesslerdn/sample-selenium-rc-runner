@@ -17,6 +17,7 @@ public class GoogleRunnerTest {
     private static final int SEARCH_COUNT = 1;
     private List<SeleniumScenario> scenarios = new ArrayList<SeleniumScenario>();
     private SeleniumRcServer seleniumRcServer;
+    private boolean shuffle = false;
 
     @BeforeClass
     public static void startSeleniumRcServer(){
@@ -30,7 +31,7 @@ public class GoogleRunnerTest {
         for (int i = 0; i < SEARCH_COUNT; i++){
             scenarios.add(new SearchScenario(session()));
         }
-        Collections.shuffle(scenarios);
+        if (shuffle) Collections.shuffle(scenarios);
     }
 
     @Test

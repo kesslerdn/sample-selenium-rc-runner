@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.mycompany.runner.GoogleRunnerTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 13.198 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 14.209 sec
