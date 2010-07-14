@@ -44,13 +44,9 @@ public static SeleniumServer server;
     }
 
 
-    public static void stopSeleniumServer(Selenium selenium){
-
-      selenium.stop();
-
+    public static void stopSeleniumServer(){
       if (server != null) {
           try {
-              selenium.shutDownSeleniumServer();
               server.stop();
               server = null;
           } catch (Exception e) {

@@ -7,12 +7,20 @@ import static org.junit.Assert.*;
 
 
 public class SearchScenario implements SeleniumScenario {
-    public void execute(Selenium selenium) {
+    private Selenium selenium;
+
+    
+    public SearchScenario(Selenium selenium){
+        this.selenium = selenium;
+    }
+
+
+    public void execute() {
         selenium.open("/");
-		assertEquals("Google", selenium.getTitle());
-		selenium.type("q", "albert einstein");
-		selenium.click("link=Albert Einstein - Wikipedia, the free encyclopedia");
-		selenium.waitForPageToLoad("30000");
+		assertEquals("Wikipedia", selenium.getTitle());
+		selenium.type("searchInput", "albert einstein");
+		selenium.click("go");
+		selenium.waitForPageToLoad("60000");
 		assertEquals("Albert Einstein - Wikipedia, the free encyclopedia", selenium.getTitle());
     }
 }

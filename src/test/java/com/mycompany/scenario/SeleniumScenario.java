@@ -5,5 +5,5 @@ import com.thoughtworks.selenium.Selenium;
 
 public interface SeleniumScenario {
 
-    void execute(Selenium selenium);
+    void execute();
 }
